@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> More Fundamentals of HTML </h1>
+    <h2> Tables</h2>
+    Tables should only be used for tabulated data and not for page layout. As with all other HTML elements tables should be styled with CSS<br>
+     but we will bend the rule slightly and use the border attribute for this exercise<br>
+     &nbsp &nbsp This caption helps <br>
+     screen reader users to <br>
+     &nbsp understand the table <br>
+  
+     <table border="2"  >
+        <tr>
+            <th>One</th>
+            <th>Two</th>
+            <th>Three</th>
+            
+        </tr>
+        <tr>
+            <td>This</td>
+            <td>That</td>
+            <td>Other</td>
+        </tr>
+    <tr>
+        
+        <td>Which</td>
+        <td>What</td>
+        <td>When</td>
+        
+    </tr>
+    </table>
+   <h2> Lists</h2>
+   Lists are very important in web page design, theya re for example the basis of page navigation
+   <br>
+   <h2> Unordered Lists</h2>
+   <ul>
+    <li> blue</li>
+    <li> red</li>
+    <li>green </li>
+   </ul>
+
+   <h2> Ordered Lists</h2>
+   <ol>
+    <li> blue</li>
+    <li> red</li>
+    <li> green</li>
+   </ol>
+
+   <h2> Nested Lists</h2>
+   <ol>
+    <li> one</li>
+    <li> two</li>
+    <ul>
+    <li> a</li>
+    <li> b</li>
+    <li> c</li> </ul>
+    <li> three</li>
+   </ol>
+   <h1> Forms </h1>
+   <h2> Simple Login Form </h2>
+ 
+   Username: <input type="text" name="username"
+    required/>
+    Password: <input type="password" name="password"
+    required/> 
+    <input type="button" value="Submit">
+    <h2> Other common form elements and grouping by fieldset</h2>
+    <form method="POST" action="" name="login" enctype="multipart/form-data">
+        <fieldset>
+            <legend > Enter your Login details </legend>
+            Username:<input type ="text" name="Username">
+            Password:<input type="password" name="Password">
+            </fieldset>
+      
+        <fieldset>
+            <legend>Pizza Selection</legend>
+            <pre>
+Size:<input type="radio"  name="size">small <input type="radio" name="size">medium <input type="radio" name="size">large 
+
+Topping:<select name="city" size="1">
+<option value="--">Please Select</option>
+<option value="">abc</option>
+<option value="" >def</option>
+<option value="" >ghi</option>
+</select>
+
+Extras:<input type="checkbox">Parmesan <input type="checkbox">Olives <input type="checkbox">Capers <br>
+</pre>
+        </fieldset>
+    </form>
+    <input type="button" value="Submit" >
+    <input type="button" value="Clear">
+
+
+
+
+
+</body>
+</html>
+
